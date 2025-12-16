@@ -14,7 +14,7 @@ export const projects: Project[] = [
   {
     id: 'sillwriting',
     name: 'sillwriting',
-    description: 'A minimalist writing tool.',
+    description: '10 minutes of honesty.',
     category: 'Productivity',
     type: 'web',
     image: '/images/projects/sillwriting.png',
