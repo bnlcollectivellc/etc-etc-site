@@ -48,12 +48,12 @@ export default function Header() {
       <div className="hidden md:grid grid-cols-4 gap-8 items-start">
         {/* Column 1: Wordmark */}
         <div>
-          <h1 className="text-3xl tracking-tight">etc.etc</h1>
+          <h1 className="text-2xl tracking-tight">etc.etc</h1>
         </div>
 
         {/* Column 2: Description */}
         <div className="col-span-1 overflow-hidden">
-          <p className="text-3xl text-black/70 leading-tight tracking-tight break-words">
+          <p className="text-lg text-black/70 leading-tight tracking-tight break-words">
             Human-focused apps and websites: software that helps you get back to living your life.
           </p>
         </div>
