@@ -51,12 +51,15 @@ export default function Header() {
           <h1 className="text-3xl tracking-tight">etc.etc</h1>
         </div>
 
-        {/* Columns 2-3: Description */}
-        <div className="col-span-2 overflow-hidden">
+        {/* Column 2: Description */}
+        <div className="col-span-1 overflow-hidden">
           <p className="text-3xl text-black/70 leading-tight tracking-tight break-words">
             Human-focused apps and websites: software that helps you get back to living your life.
           </p>
         </div>
+
+        {/* Column 3: Empty */}
+        <div></div>
 
         {/* Column 4: Social icons */}
         <div className="flex items-start justify-end gap-4">
