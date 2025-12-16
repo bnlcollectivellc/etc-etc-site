@@ -7,8 +7,8 @@ export default function Header() {
       <div className="md:hidden">
         {/* Row 1: Wordmark + Social icons */}
         <div className="flex items-start justify-between">
-          <h1 className="text-2xl tracking-tight">etc.etc</h1>
-          <div className="flex items-center gap-4">
+          <h1 className="text-2xl tracking-tight animate-fade-in-1">etc.etc</h1>
+          <div className="flex items-center gap-4 animate-fade-in-3">
             <a
               href="https://www.tiktok.com/@etc.etc950"
               target="_blank"
@@ -39,7 +39,7 @@ export default function Header() {
           </div>
         </div>
         {/* Row 2: Description */}
-        <p className="text-2xl text-black/70 leading-tight tracking-tight mt-4">
+        <p className="text-2xl text-black/70 leading-tight tracking-tight mt-4 animate-fade-in-2">
           Human-first apps and websites: software that helps you get back to living your life.
         </p>
       </div>
@@ -48,11 +48,11 @@ export default function Header() {
       <div className="hidden md:grid grid-cols-4 gap-8 items-start">
         {/* Column 1: Wordmark */}
         <div>
-          <h1 className="text-2xl tracking-tight">etc.etc</h1>
+          <h1 className="text-2xl tracking-tight animate-fade-in-1">etc.etc</h1>
         </div>
 
         {/* Column 2: Description */}
-        <div className="col-span-1 overflow-hidden">
+        <div className="col-span-1 overflow-hidden animate-fade-in-2">
           <p className="text-lg text-black/70 leading-tight tracking-tight break-words">
             Human-first apps and websites: software that helps you get back to living your life.
           </p>
@@ -62,7 +62,7 @@ export default function Header() {
         <div></div>
 
         {/* Column 4: Social icons */}
-        <div className="flex items-start justify-end gap-4">
+        <div className="flex items-start justify-end gap-4 animate-fade-in-3">
           <a
             href="https://www.tiktok.com/@etc.etc950"
             target="_blank"
