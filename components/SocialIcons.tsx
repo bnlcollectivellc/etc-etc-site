@@ -36,7 +36,7 @@ export function InstagramIcon({ className }: IconProps) {
   );
 }
 
-export function EmailIcon({ className }: IconProps) {
+export function XIcon({ className }: IconProps) {
   return (
     <svg
       viewBox="0 0 24 24"
@@ -47,8 +47,9 @@ export function EmailIcon({ className }: IconProps) {
       strokeLinejoin="round"
       className={className}
     >
-      <rect x="2" y="4" width="20" height="16" rx="2" />
-      <path d="M22 6l-10 7L2 6" />
+      <path d="M4 4l11.5 16h4.5L8.5 4H4z" />
+      <path d="M4 20l6.5-9" />
+      <path d="M20 4l-6.5 9" />
     </svg>
   );
 }

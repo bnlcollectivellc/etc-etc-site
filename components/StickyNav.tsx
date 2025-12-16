@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { TikTokIcon, InstagramIcon, EmailIcon } from './SocialIcons';
+import { TikTokIcon, InstagramIcon, XIcon } from './SocialIcons';
 
 export default function StickyNav() {
   const [isVisible, setIsVisible] = useState(false);
@@ -26,7 +26,7 @@ export default function StickyNav() {
         <span className="text-lg tracking-tight">etc.etc</span>
         <div className="flex items-center gap-4">
           <a
-            href="https://tiktok.com/@etc.etc"
+            href="https://www.tiktok.com/@etc.etc950"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="TikTok"
@@ -35,7 +35,7 @@ export default function StickyNav() {
             <TikTokIcon className="w-5 h-5" />
           </a>
           <a
-            href="https://instagram.com/etc.etc"
+            href="https://www.instagram.com/etc.etc702"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
@@ -44,11 +44,13 @@ export default function StickyNav() {
             <InstagramIcon className="w-5 h-5" />
           </a>
           <a
-            href="mailto:hello@etc.etc"
-            aria-label="Email"
+            href="https://x.com/etcetc702"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="X"
             className="hover:opacity-60 transition-opacity"
           >
-            <EmailIcon className="w-5 h-5" />
+            <XIcon className="w-5 h-5" />
           </a>
         </div>
       </div>

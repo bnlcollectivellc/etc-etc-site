@@ -1,4 +1,4 @@
-import { TikTokIcon, InstagramIcon, EmailIcon } from './SocialIcons';
+import { TikTokIcon, InstagramIcon, XIcon } from './SocialIcons';
 
 export default function Header() {
   return (
@@ -10,7 +10,7 @@ export default function Header() {
           <h1 className="text-2xl tracking-tight">etc.etc</h1>
           <div className="flex items-center gap-4">
             <a
-              href="https://tiktok.com/@etc.etc"
+              href="https://www.tiktok.com/@etc.etc950"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="TikTok"
@@ -19,7 +19,7 @@ export default function Header() {
               <TikTokIcon className="w-5 h-5" />
             </a>
             <a
-              href="https://instagram.com/etc.etc"
+              href="https://www.instagram.com/etc.etc702"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -28,11 +28,13 @@ export default function Header() {
               <InstagramIcon className="w-5 h-5" />
             </a>
             <a
-              href="mailto:hello@etcetc.co"
-              aria-label="Email"
+              href="https://x.com/etcetc702"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="X"
               className="hover:opacity-60 transition-opacity"
             >
-              <EmailIcon className="w-5 h-5" />
+              <XIcon className="w-5 h-5" />
             </a>
           </div>
         </div>
@@ -59,7 +61,7 @@ export default function Header() {
         {/* Column 4: Social icons */}
         <div className="flex items-start justify-end gap-4">
           <a
-            href="https://tiktok.com/@etc.etc"
+            href="https://www.tiktok.com/@etc.etc950"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="TikTok"
@@ -68,7 +70,7 @@ export default function Header() {
             <TikTokIcon className="w-5 h-5" />
           </a>
           <a
-            href="https://instagram.com/etc.etc"
+            href="https://www.instagram.com/etc.etc702"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
@@ -77,11 +79,13 @@ export default function Header() {
             <InstagramIcon className="w-5 h-5" />
           </a>
           <a
-            href="mailto:hello@etcetc.co"
-            aria-label="Email"
+            href="https://x.com/etcetc702"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="X"
             className="hover:opacity-60 transition-opacity"
           >
-            <EmailIcon className="w-5 h-5" />
+            <XIcon className="w-5 h-5" />
           </a>
         </div>
       </div>
