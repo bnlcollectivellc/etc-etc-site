@@ -17,7 +17,7 @@
 ## Brand Identity
 
 ### Tagline
-> **Human-focused apps and websites: software that helps you get back to living your life.**
+> **Human-first apps and websites: software that helps you get back to living your life.**
 
 Use across: website, social bios, app descriptions, all brand touchpoints.
 
@@ -69,7 +69,7 @@ The site is a **single page** with the following sections:
 
 ### Header
 - **Left:** `etc.etc` wordmark (Replica typeface)
-- **Tagline:** `Human-focused apps and websites: software that helps you get back to living your life.`
+- **Tagline:** `Human-first apps and websites: software that helps you get back to living your life.`
   - Positioned below the wordmark
   - Smaller type size, same typeface
 - **Right:** Social icons (small, minimal)

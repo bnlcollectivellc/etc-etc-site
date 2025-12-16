@@ -53,7 +53,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       )}
 
       {/* Hover overlay - frosted glass with blur */}
-      <div className="absolute inset-0 bg-white/80 backdrop-blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-out flex flex-col items-center justify-center text-center p-4 rounded-xl">
+      <div className="absolute inset-0 bg-white/80 backdrop-blur opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-out flex flex-col items-center justify-center text-center p-4 rounded-xl">
         <h3 className="text-2xl font-normal tracking-tight text-black">
           {project.name}
         </h3>

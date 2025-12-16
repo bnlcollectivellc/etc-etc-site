@@ -40,7 +40,7 @@ export default function Header() {
         </div>
         {/* Row 2: Description */}
         <p className="text-2xl text-black/70 leading-tight tracking-tight mt-4">
-          Human-focused apps and websites: software that helps you get back to living your life.
+          Human-first apps and websites: software that helps you get back to living your life.
         </p>
       </div>
 
@@ -54,7 +54,7 @@ export default function Header() {
         {/* Column 2: Description */}
         <div className="col-span-1 overflow-hidden">
           <p className="text-lg text-black/70 leading-tight tracking-tight break-words">
-            Human-focused apps and websites: software that helps you get back to living your life.
+            Human-first apps and websites: software that helps you get back to living your life.
           </p>
         </div>
 
