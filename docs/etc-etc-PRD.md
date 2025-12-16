@@ -284,30 +284,30 @@ etc-etc/
 
 ## Implementation Phases
 
-### Phase 1: Foundation (Current)
-- [ ] Set up Next.js project with TypeScript
-- [ ] Configure Replica font
-- [ ] Implement 4-column grid system
-- [ ] Create Header component
-- [ ] Create Footer component
-- [ ] Create basic ProjectCard component
-- [ ] Add placeholder project data
+### Phase 1: Foundation
+- [x] Set up Next.js project with TypeScript
+- [x] Configure Replica font
+- [x] Implement 4-column grid system
+- [x] Create Header component
+- [x] Create Footer component
+- [x] Create basic ProjectCard component
+- [x] Add placeholder project data
 
 ### Phase 2: Polish
-- [ ] Implement hover overlay with fade animation
-- [ ] Create MobileFrame component (iPhone shell)
-- [ ] Create WebFrame component (rounded rectangle)
-- [ ] Style category tags
-- [ ] Responsive layout (tablet, mobile)
+- [x] Implement hover overlay with fade animation (frosted glass)
+- [x] Create MobileFrame component (iPhone shell — both notch and timeless variants)
+- [x] Create WebFrame component (rounded rectangle)
+- [x] Style category tags (plain text, smaller than description)
+- [x] Responsive layout (tablet, mobile)
 
-### Phase 3: Content
-- [ ] Add sillwriting screenshot
+### Phase 3: Content (In Progress)
+- [ ] Add sillwriting screenshot (replace placeholder)
 - [ ] Add future project screenshots
-- [ ] Create/source iPhone frame asset
+- [x] Create iPhone frame assets (both variants built)
 - [ ] Finalize all copy/descriptions
 
 ### Phase 4: Launch
-- [ ] Deploy to Vercel
+- [x] Deploy to Vercel — **Live URL:** https://etcetc.vercel.app
 - [ ] Connect custom domain (if applicable)
 - [ ] Test all links
 - [ ] Performance optimization
@@ -331,7 +331,7 @@ etc-etc/
 | Date | Session Summary | Status |
 |------|-----------------|--------|
 | YYYY-MM-DD | Initial PRD created | Not started |
-| 2024-12-15 | Clarified design decisions (frosted glass overlay, plain text tags, line icons, Tailwind, both iPhone frames, placeholder cards). PRD updated as source of truth. Ready to build. | In progress |
+| 2024-12-15 | Clarified design decisions. Built all phases: Next.js + Tailwind setup, Replica font, Header/Footer, ProjectGallery (4-col responsive grid), ProjectCard with frosted glass overlay, MobileFrame (notch + timeless), WebFrame. Deployed to Vercel. | Complete |
 
 ---
 
